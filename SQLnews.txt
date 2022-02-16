@@ -1,0 +1,13 @@
+INSERT INTO categories (catid, description, title) VALUES (1, 'Football and much more...', 'Sport');
+INSERT INTO categories (catid, description, title) VALUES (2, 'Money', 'Business');
+INSERT INTO categories (catid, description, title) VALUES (3, 'Take care of your health', 'Health');
+INSERT INTO categories (catid, description, title) VALUES (4, 'Know better your government', 'Politics');
+INSERT INTO categories (catid, description, title) VALUES (5, 'Exploe your world', 'Travel');
+
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (1, 'John Smith', 'UK', 'A Covid variant has hit the headlines this week as South African scientists say it is the most mutated form of the coronavirus discovered since the first outbreak in Wuhan...', '/images/covid.png', 10, 'COVID');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (2, 'Gary ineker', 'UK', 'Mbappe staying at PSG', '/images/footbal.png', 4, 'Most expensive transfers this year');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (3, 'Doctor Kim', 'China', 'Health plans for state and local workers can opt out of the federal law requiring them to treat mental health like other medical conditions.', '/images/healt.jpg', 9, 'Take care of your health');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (4, 'Rio Ferdinand', 'UK', 'Manchester United is delighted to confirm the signing of Cristiano Ronaldo on a two-year contract with the option to extend for a further year, subject to international clearance.', '/images/Manchester.jpg', 6, 'Cristiano Ronaldo comming home!');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (5, 'Jose Javier', 'ES', '	Fuerteventura Island, Spanish Isla de Fuerteventura, island, one of the eastern Canary Islands, Las Palmas provincia (province), in the Canary Islands comunidad autonoma (autonomous community), Spain.', '/images/travel.jpg', 6, 'Fuertaventura - the best place to relax');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (6, 'Bill Gates', 'USA', 'Bitcoin is a digital currency created in January 2009. It follows the ideas set out in a whitepaper by the mysterious and pseudonymous Satoshi Nakamoto. The identity of the person or persons who created the technology is still a mystery.', '/images/money.jpeg', 3, 'Bitcoin');
+INSERT INTO news(id, author, country, description, imageurl, important, name) VALUES (7, 'Mikolaj Szargut', 'PL', 'Politician coruption', '/images/politics.jpg', 9, 'Coruption');
